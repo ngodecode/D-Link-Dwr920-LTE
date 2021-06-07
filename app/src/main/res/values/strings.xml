@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DWR-920 LTE SIGNAL</string>
+
+        <string name="ads_app_id">ca-app-pub-3007919778406514~1988251709</string>
+
+    <!--Test Ads-->
+<!--        <string name="ads_unit_banner">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--        <string name="ads_unit_reward">ca-app-pub-3940256099942544/5354046379</string>-->
+
+    <!--Release Ads-->
+    <string name="ads_unit_banner">ca-app-pub-3007919778406514/8908883276</string>
+    <string name="ads_unit_reward">ca-app-pub-3007919778406514/4011779815</string>
+
+</resources>

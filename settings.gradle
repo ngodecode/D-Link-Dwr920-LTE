@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "D-Link-Dwr920-LTE"

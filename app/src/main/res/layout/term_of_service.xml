@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LANJUTKAN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#20D627"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:enabled="false"
+        android:layout_alignParentBottom="true"/>
+
+    <CheckBox
+        android:id="@+id/chkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAYA SETUJU"
+        android:textSize="18sp"
+        android:layout_gravity="right"
+        android:layout_margin="16sp"
+        android:textColor="#5EB146"
+        android:textStyle="bold"
+        android:layout_above="@+id/btnNext"
+        />
+
+    <ScrollView
+        android:layout_above="@+id/chkAgree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textAlignment="center"/>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
